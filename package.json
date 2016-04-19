@@ -1,0 +1,32 @@
+{
+  "name": "laravel-5-package-creator",
+  "version": "0.0.3",
+  "description": "Scaffold a package for Laravel 5",
+  "main": "index.js",
+  "keywords": [
+    "laravel",
+    "component"
+  ],
+  "author": "Michael Bouclas <mbouclas@gmail.com> (http://net-tomorrow.com/)",
+  "license": "MIT",
+  "bin": {
+    "lara": "./bin/lara"
+  },
+  "dependencies": {
+    "bluebird": "^3.3.4",
+    "colors": "^1.1.2",
+    "fs-extra": "^0.28.0",
+    "lodash": "^4.6.1",
+    "minimist": "^1.2.0",
+    "prompt": "^1.0.0",
+    "sprintf": "^0.1.5",
+    "wrench": "^1.5.9"
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/mbouclas/laravel-5-package-creator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mbouclas/laravel-5-package-creator.git"
+  },
+  "preferGlobal": true
+}

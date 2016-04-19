@@ -1,0 +1,43 @@
+{
+    "name": " %(vendor)s/%(packageName)s",
+    "type": "library",
+    "description": "%(description)s",
+    "keywords": [
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "%(name)s",
+            "email": "%(email)s",
+            "homepage": "%(homePage)s",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "illuminate/support": "~5.1",
+        "php" : "~5.5|~7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "4.*",
+        "scrutinizer/ocular": "~1.1",
+        "squizlabs/php_codesniffer": "~2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "%(vendor)s\\%(packageName)s\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "%(vendor)s\\%(packageName)s\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}

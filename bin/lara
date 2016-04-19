@@ -1,0 +1,2 @@
+#!/usr/bin/env node
+var myapp = require('../index');
